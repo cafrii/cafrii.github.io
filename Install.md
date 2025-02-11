@@ -76,6 +76,10 @@ $ jekyll new --skip-bundle .
 ```
 $ jekyll new --skip-bundle --force .
 ```
+> 참고: 2/11 변경사항 \
+> / 대신 /docs 를 게시 소스로 변경하면서, 이제 위 `--force` 옵션은 필요하지 않게 되었습니다.
+> 처음부터 `jekyll new docs` 를 실행하는 것과 동일할 것 같습니다.
+
 
 다음과 같은 폴더 구조와 파일들이 생성되었습니다.
 ```
@@ -166,6 +170,7 @@ url: "https://<name>.github.io"
 
 커밋하기 전에 로컬에서 먼저 테스트 합니다.
 ```
+$ cd <repo-root>/docs
 $ bundle exec jekyll serve --port 5000
 Configuration file: <path>/_config.yml
 To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
@@ -213,7 +218,7 @@ $ git push -u origin <branch>
 * 상단 'Settings' -> 좌측 패널 'Code and automation' 섹션의 'Pages'를 선택합니다.
 * 'Build and deployment' 의 Source 를 'Deploy from a branch'를 선택합니다.
 * Branch 아래의 두 드롭다운 리스트에서 브랜치와 폴더를 적절하게 선택하고 'Save' 를 클릭합니다.
-  * (예: main 과 / 'root' 선택)
+  * (예: main 과 '/docs' 선택)
 
 ### 확인
 github 에 의해 호스팅되는 사이트에 방문하여 확인합니다.
