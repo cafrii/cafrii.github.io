@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+}
+
+aside {
+    width: 250px;
+    background: #f4f4f4;
+    padding: 15px;
+    order: 1; /* right sided */
+}
+
+main {
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 5px;
+}

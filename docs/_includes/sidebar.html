@@ -1,0 +1,27 @@
+<div class="sidebar">
+    <h3>Category</h3>
+    <ul>
+      {% for category in site.categories %}
+        <li>
+          <a href="/categories/{{ category[0] | slugify }}/">
+            {{ category[0] }} ({{ category[1] | size }})
+          </a>
+        </li>
+      {% else %}
+      <li>No categories found</li>
+      {% endfor %}
+    </ul>
+    <!-- <pre>{{ site.categories | inspect }}</pre> -->
+    <h3>Tag</h3>
+    <ul>
+      {% for tag in site.tags %}
+        <li>
+          <a href="/tags/{{ tag[0] | slugify }}/">
+            {{ tag[0] }} ({{ tag[1] | size }})
+          </a>
+        </li>
+      {% else %}
+      <li>No tags found</li>
+      {% endfor %}
+    </ul>
+  </div>

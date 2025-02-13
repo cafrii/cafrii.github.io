@@ -32,8 +32,17 @@ github_username:  cafrii
 
 # Build settings
 theme: minima
+
 plugins:
   - jekyll-feed
+
+collections:
+  categories:
+    output: true
+  tags:
+    output: true
+  posts:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
