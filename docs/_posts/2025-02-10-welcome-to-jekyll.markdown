@@ -2,7 +2,8 @@
 layout: post
 title:  "첫번째"
 date:   2025-02-10 23:51:29 +0900
-categories: jekyll update
+category: jekyll
+tags: jekyll
 ---
 
 ### 시작

@@ -2,7 +2,8 @@
 layout: post
 title:  "블로그 포스트 작성하기"
 date:   2025-02-11 10:15:00 +0900
-categories: jekyll
+category: jekyll
+tags:
 ---
 
 ### 두번째

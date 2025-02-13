@@ -2,7 +2,8 @@
 layout: post
 title:  "Markdown 연습"
 date:   2025-02-11 17:06:00 +0900
-categories: markdown
+category: jekyll
+tags: markdown
 ---
 
 ## 시작
