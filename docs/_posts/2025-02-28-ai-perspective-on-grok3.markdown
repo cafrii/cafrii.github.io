@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Category 및 Tag 추가하기"
+title:  "AI Perspective on GROK3 release"
 category: ai
 tags: ai
 ---
