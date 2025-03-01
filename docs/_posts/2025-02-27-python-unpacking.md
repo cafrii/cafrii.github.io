@@ -116,7 +116,7 @@ print(type(a))  # <class 'list'>
 
 규격에서는 starred target 이라고 표현을 하고 있군요.
 
-PEP 3132: Extended Iterable Unpacking 문서도 참고할 만 합니다. <ㅠr>
+PEP 3132: Extended Iterable Unpacking 문서도 참고할 만 합니다. <br>
 <https://peps.python.org/pep-3132/>
 
 <br>
