@@ -1,6 +1,9 @@
-
-
-
+---
+layout: post
+title:  python 의 subscription 연산자
+category: python
+tags: jekyll
+---
 
 # 서브스크립션 연산
 
