@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Python 의 iterable 과 iterator
+title: Python 의 iterable 과 iterator
 category: python
 tags: iterator iterable
 ---
